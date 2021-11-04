@@ -101,6 +101,10 @@ a {
 	flex-wrap: wrap;
 }
 
+@media(max-width: 300px) {
+	flex-wrap: wrap;
+}
+
 
 
 
