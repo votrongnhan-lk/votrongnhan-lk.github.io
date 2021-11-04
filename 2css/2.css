@@ -1,0 +1,212 @@
+#h3 {
+	text-align: center;
+	color: white;
+}
+
+#img1 {
+	padding: 0px;
+	box-shadow: 5px 8px;
+}
+
+#tacgia {
+	text-align: right;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto; 
+	padding: 0px;	
+}
+
+#Vietnam_flag {
+	flex: 10%;
+	float: left;
+}
+
+#US_flag {
+	flex: 10%;
+	float: right;
+	padding: 20px 30px 0px 0px;	
+}
+
+nav > p {
+	text-align: right;
+	color: white;
+}
+
+nav a {
+	color: #03fcd7;
+	padding: 28px 12px;
+
+}
+
+#b_img {
+	background-color: #33475b;
+	padding: 0;
+	overflow: hidden; 
+
+}
+
+#form1 {
+	padding: 8px 24px;
+	float: left;
+	color: black;
+
+}
+
+#nav {
+	background-color: #55B4B0;
+	padding: 15px;
+	overflow: hidden;
+	color: black;
+	margin: 0;
+}
+#created {
+	text-align: center;
+	padding: 10px 5px 10px 5px;	
+	background-color: #24ffe9;
+	margin: 0;
+
+}
+
+footer > a {
+	color: #2c43db;	
+}
+
+footer > p {
+	text-align: left;
+}
+
+
+#facebook {
+	color: #1482ff;
+	text-decoration: none;
+
+}
+
+#instagram {
+	color: #1482ff;
+	text-decoration: none;
+}
+#mail {
+	text-decoration: none;
+	color: #1482ff;
+	width: 30%;
+}
+
+#instagram:hover {
+	color: #ff1100
+}
+
+#facebook:hover {
+	color: #ff1100
+}
+
+#mail:hover {
+	color: #ff1100
+}
+
+#div1 {
+	background-color: #c7fff9;
+	padding: 0px 0px 45px 5px;
+	overflow: hidden; 
+	width: 33%;
+	float: left;
+	margin: 0;
+}
+
+#text_color_facbook {
+	color: blue;
+	width: 60%;
+}
+
+#text_color_instagram {
+	color: #FD1D1D;
+	width: 60%;
+
+}
+#icon {
+	margin: 5px;
+}
+
+#text_color_facbook:hover {
+	color: black;
+}
+
+#text_color_instagram:hover {
+	color: black;
+}
+
+#link_web:hover {
+	color: #7bc990;
+}
+
+#btn:hover {
+	color: #d4c5c7;
+}
+
+#trangtri {
+	background-color: #c7fff9;
+	padding: 0px 0px 40px 10px;
+	overflow: hidden; 
+	width: 33%;
+	float: left;
+	margin: 0;
+}
+
+/*#container {
+	display: flex;
+	flex-wrap: nowrap;
+}*/
+
+#tong_footer {
+	width: 90%;
+}
+
+
+h2 {
+	font-family: Verdana, Helvetica, sans-serif;
+}
+
+h3 {
+	font-family: Verdana, Helvetica, sans-serif;
+}
+
+h5 {
+	font-family: Verdana, Helvetica, sans-serif;
+}
+
+p {
+	font-family: Verdana, Helvetica, sans-serif;
+}
+
+a {
+	font-family: Verdana, Helvetica, sans-serif;
+}
+
+
+@media(max-width: 800px) {
+	#trangtri {
+		padding: 50px 90px 50px 50px;
+		overflow: hidden;
+	}
+	#div1 {
+		padding: 27px 29px 27px 27px;
+	}
+}
+
+@media(max-width: 400px) {
+	#trangtri {
+		padding: 50px;
+	}
+	#div1 {
+		padding: 27px;
+	}
+}
+
+
+
+
+
+
