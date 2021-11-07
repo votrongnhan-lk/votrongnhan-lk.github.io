@@ -12,7 +12,7 @@ body {
 	width: 99.4%;
 	margin: 0;
 	height: 30px;
-	padding: 4px;
+	padding: 7px 0px 0px 5px;
 	overflow: hidden;
 	background-color: #211f21;
 }
@@ -131,6 +131,10 @@ hr {
 }
 
 @media(max-width: 800px) {
+	#votrongnhan_laai {
+		width: 59,4%;
+	}
+	
 	.course_img {
 		flex: 30%;
 	}
@@ -159,6 +163,10 @@ hr {
 }
 
 @media(max-width: 400px) {
+	#votrongnhan_laai {
+		width: 59,4%;
+	}
+	
 	.course_img {
 		flex: 20%;
 	}
