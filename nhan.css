@@ -189,5 +189,36 @@ hr {
 
 }
 
+@media(max-width: 300px) {
+	#votrongnhan_laai {
+		width: 29,4%;
+	}
+	
+	.course_img {
+		flex: 20%;
+	}
+
+	#flex_container {
+		flex: 20%;
+	}
+	#container {
+		flex-wrap: wrap;
+	}
+
+	#course_container {
+		width: 40%;
+		padding: 0px 0px 5px 50px;
+	}
+
+	footer {
+		flex-wrap: wrap;
+	}
+
 }
+
+
+
+
+
+
 
