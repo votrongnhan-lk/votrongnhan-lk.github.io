@@ -131,6 +131,10 @@ hr {
 }
 
 @media(max-width: 800px) {
+	#test {
+		flex-wrap: wrap;
+	}
+	
 	#votrongnhan_laai {
 		width: 59,4%;
 	}
