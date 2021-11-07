@@ -1,0 +1,185 @@
+body {
+	margin: 0;
+	background-image: url("img/black_background.png")
+}
+
+#text_description {
+	margin: 0;
+	padding: 5px;
+}
+
+#votrongnhan_laai {
+	width: 99.4%;
+	margin: 0;
+	height: 30px;
+	padding: 4px;
+	overflow: hidden;
+	background-color: #211f21;
+}
+
+.course_item {
+	text-align: center;
+	flex: 33%;
+}
+
+.course_img {
+	max-width: 40%;
+}
+
+#course_container {
+	width: 100%;
+	display: flex;
+	flex: wrap;
+}
+
+#course_title {
+	font-size: 100%;
+	font-weight: bold;
+	padding: 5px 5px;
+}
+
+#flex_container {
+	overflow: hidden;
+	padding: 10px 5px 20px 5px;
+	text-align: center;
+}
+
+#container {
+	width: 33%;	
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+#thanhtich_container {
+	padding: 5px 5px 5px 15px;
+	flex: 100%;
+}
+
+#address {
+	padding: 5px 5px 5px 40px;
+	flex: 60%;
+}
+
+footer {
+	flex-wrap: nowrap;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	background-color: #211f21;
+}
+
+#instagram {
+	color: #d5eb34;
+}
+
+#facebook {
+	color: #9a93f5;
+}
+
+#email {
+	color: white;
+	text-decoration: none;
+}
+
+#link_facebook {
+	text-decoration: none;
+	color: white;
+}
+
+#link_instagram {
+	text-decoration: none;
+	color: yellow;
+}
+
+h1 {
+	color: white;
+	font-family: Verdana, Helvetica, sans-serif;
+}
+
+h2 {
+	color: white;
+	font-family: Verdana, Helvetica, sans-serif;
+}
+
+h3 {
+	color: white;
+	font-family: Verdana, Helvetica, sans-serif;
+}
+
+h4 {
+	color: white;
+	font-family: Verdana, Helvetica, sans-serif;
+}
+
+h5 {
+	color: white;
+	font-family: Verdana, Helvetica, sans-serif;
+}
+
+p {
+	color: white;
+	font-family: Verdana, Helvetica, sans-serif;
+}
+
+li {
+	color: white;
+}
+
+hr {
+	color: white;
+	font-family: Verdana, Helvetica, sans-serif;
+}
+
+@media(max-width: 800px) {
+	.course_img {
+		flex: 30%;
+	}
+
+	#flex_container {
+		flex: 50%;
+	}
+
+	#thanhtich_container {
+		flex: 50%;
+	}
+
+	#container {
+		flex-wrap: wrap;
+	}
+
+	#course_container {
+		width: 80%;
+		padding: 0px 0px 5px 50px;
+	}
+
+	footer {
+		flex-wrap: wrap;
+	}
+
+}
+
+@media(max-width: 400px) {
+	.course_img {
+		flex: 20%;
+	}
+
+	#flex_container {
+		flex: 40%;
+	}
+	#container {
+		flex-wrap: wrap;
+	}
+
+	#course_container {
+		width: 80%;
+		padding: 0px 0px 5px 50px;
+	}
+
+	footer {
+		flex-wrap: wrap;
+	}
+
+}
+
+}
+
