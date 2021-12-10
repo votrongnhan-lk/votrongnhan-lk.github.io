@@ -1,0 +1,83 @@
+h1 {
+	font-family: Courier New;
+}
+
+h2 {
+	font-family: Courier New;
+}
+
+h4 {
+	font-family: Courier New;
+}
+
+p {
+	font-family: "Courier New";
+}
+
+#top_side {
+	background-color: #08524a;
+	padding: 0px 2px 0px 2px;
+	display: flex;
+	flex-wrap: nowrap;
+	overflow: hidden; 
+}
+
+#name_school {
+	color: #cce0de;
+	max-width: 90%;
+	padding: 0px 0px 0px 5px;
+	flex: 60%;
+}
+
+#back {
+	max-width: 15%;
+	flex: 40%;
+	padding: 0px 10px 0px 0px;
+	text-decoration: none;
+	color: white;
+}
+
+#back:hover {
+	color: #88a8a5;
+}
+
+#flex_container {
+	display: flex;
+	flex-wrap: nowrap;
+	padding: 5px 10px 5px 100px; 
+	background-color: #8eaba9;
+}
+
+#flex_container2 {
+	margin: 5px 300px 5px 300px;
+}
+
+#left_side {
+	max-width: 30%;
+	padding: 10px 20px 5px 5px;
+	
+}
+
+#straight_line {
+	border-left: 3px solid #664949;
+	height: 300px;
+	left: 40%;
+	margin-left: -10px;
+	margin-right: 10px;
+	top: 3px; 
+}
+
+#center_side {
+	max-width: 30%;
+	padding: 10px 5px 5px 50px;
+}
+
+#inschool2_img {
+	max-width: 30%;
+	padding: 5px 5px 10px 100px;
+}
+
+#inschool34_img {
+	max-width: 50%;
+	margin: 0px 300px 5px 200px;
+}
