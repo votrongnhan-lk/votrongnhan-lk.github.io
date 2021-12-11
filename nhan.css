@@ -134,6 +134,10 @@ footer a {
 }
 
 @media(max-width: 800px) {
+	#boiloi_img {
+		max-width: 40%;
+	}
+	
 	#center_side {
 		padding: 50px 100px 20px 10px
 	}
