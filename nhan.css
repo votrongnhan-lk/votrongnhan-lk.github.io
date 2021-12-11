@@ -195,4 +195,8 @@ footer a {
 	#straight_line {
 		display: none;
 	}
+	
+	#boiloi_img {
+		max-width: 40%;
+	}
 }
