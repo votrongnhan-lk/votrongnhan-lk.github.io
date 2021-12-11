@@ -168,3 +168,34 @@ p {
 	}
 
 }
+
+@media(max-width: 200px) {
+	#flex_container {
+		flex-wrap: wrap;
+		padding: 5px 100px 5px 10px;
+	}
+
+	#inschool2_img {
+		display: none;
+	}
+
+	#flex_side {
+		flex: 100%;
+	}
+
+	#center_side {
+		flex: 100%;
+		padding: 10px 50px 5px 5px;
+	}
+
+	#flex_container2 {
+		margin: 5px 20px 5px 20px;
+	}
+
+	#inschool34_img {
+		width: 200px;
+		height: 100px;
+		margin: 5px 50px 5px 25px;
+	}
+
+}
