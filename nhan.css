@@ -1,0 +1,194 @@
+h1 {
+	font-family: Helvetica, sans-serif;
+}
+
+h2 {
+	font-family: Helvetica, sans-serif;
+}
+
+h4 {
+	font-family: Helvetica, sans-serif;
+}
+
+p {
+	font-family: Helvetica, sans-serif;
+	font-size: 19px;
+}
+
+
+#offcial_website {
+	background-color: #abb8b0;
+	padding: 10px;
+	margin: 0;
+	font-size: 14px;
+}
+
+#top_side {
+	background-color: #f0d7d5;
+	padding: 10px;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+#left_side {
+	flex: 60%;
+}
+
+#center_side {
+	flex: 50%;
+	padding: 0px 120px 0px 40px;
+}
+
+#right_side {
+	flex: 30%;
+	padding: 0px 70px 0px 160px;
+
+}
+
+#straight_line {
+	border-left: 3px solid #664949;
+	height: 300px;
+	left: 40%;
+	margin-left: 20px;
+	margin-right: 10px;
+	top: 3px; 
+}
+
+#facebook {
+	color: #124a78;
+}
+
+#instagram {
+	color: #124a78;
+}
+
+#tiktok {
+	color: #124a78;
+}
+
+#gmail {
+	color: #124a78;
+}
+
+#trinh_do {
+	padding: 10px;
+}
+
+#diem {
+	max-width: 5%;
+	padding: 20px;
+}
+
+table {
+	border-style: solid;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table td, table th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+	padding-top: 12px; 
+	padding-bottom: 12px;
+	text-align: center;
+	background-color: #c79797;
+	color: white;
+}
+
+#left_trinhdo_diem {
+	flex: 50%;
+	padding: 10px 20px;
+	background-color: #eef5e6;
+}
+
+#right_sothich {
+	flex: 50%;
+	padding: 10px 20px;
+	background-color: #ebffee;
+}
+
+#flex_container {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+#boiloi_img {
+	padding: 5px 5px 10px 100px;
+}
+
+footer {
+	text-align: center;
+}
+
+footer a {
+	color: #386b94;
+}
+
+@media(max-width: 800px) {
+	#center_side {
+		padding: 50px 100px 20px 10px
+	}
+
+	#right_side {
+		padding: 50px 0px 0px 10px;
+	}
+
+	#left_trinhdo_diem {
+		flex: 100%;
+	}
+
+	#right_sothich {
+		flex: 100%;
+	}
+
+	#flex_container {
+		flex-wrap: wrap;
+	}
+
+	#top_side {
+		flex-wrap: wrap;
+	}
+
+	#straight_line {
+		display: none;
+	}
+}
+
+@media(max-width: 400px) {
+		#center_side {
+		padding: 50px 100px 20px 10px
+	}
+
+	#right_side {
+		padding: 50px 0px 0px 10px;
+	}
+
+	#left_trinhdo_diem {
+		flex: 100%;
+	}
+
+	#right_sothich {
+		flex: 100%;
+	}
+
+	#flex_container {
+		flex-wrap: wrap;
+	}
+
+	#top_side {
+		flex-wrap: wrap;
+	}
+
+	#straight_line {
+		display: none;
+	}
+}
